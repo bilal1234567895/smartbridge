@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Early Detection of Diabetic Retinopathy</h2>
+    <p style="text-align:center;">
+        Upload retinal images and detect DR stages using deep learning.
+    </p>
+
+    <div class="nav">
+        <a href="{{ url_for('login') }}">Login</a> |
+        <a href="{{ url_for('register') }}">Register</a>
+    </div>
+</div>
+
+</body>
+</html>
